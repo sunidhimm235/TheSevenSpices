@@ -1,0 +1,843 @@
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    body {
+        /*background-color: #17282f;*/
+        background-color: black;
+        height: 400vh;
+    }
+    .NavigationBar {
+        width: 992px;
+        height: 70px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+        text-align: left;
+        overflow: hidden;
+        background-color: #fdcece;
+    }
+    .ContentofNav {
+        display: inline;
+        list-style-type: none;
+    }
+    .ContentofNav a:hover {
+        background-color: grey;
+        list-style-type: none;
+    }
+    .Content-2 {
+        display: inline;
+        font-size: 2.5em;
+        font-family: 'Satisfy', cursive;
+        color: red;
+        list-style: none;
+    }
+    .Content-2 a {
+        text-decoration: none;
+        color: #d42417;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 {
+        display: inline;
+        color: black;
+        font-size: 2em;
+        font-family: 'Roboto', sans-serif;
+        list-style: none;
+    }
+    #content2 a {
+        text-decoration: none;
+        padding: 30px 40px;
+        color: chocolate;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 a:hover {
+        background-color: cadetblue;
+    }
+    .Content-3 {
+        margin-left: 860px;
+        margin-top: -67px;
+        font-size: 2.5em;
+        color: white;
+        cursor: pointer;
+        list-style: none;
+    }
+    .MidPart {
+        width: 992px;
+        height: 100%;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e1f7f4;
+    }
+    .h2 {
+        color: black;
+        font-size: 2em;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        position: absolute;
+        margin-left: 30px;
+    }
+    .h3 {
+        color: black;
+        font-size: 2em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+    .Chef {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 40px;
+    }
+    .p {
+        width: 636px;
+        height: 282px;
+        word-spacing: 8px;
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 350px;
+        font-size: 1em;
+        font-family: 'Merriweather', serif;
+        color: black;
+    }
+    .h3-1 {
+        color: black;
+        font-size: 2em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-top: 480px;
+        margin-left: 390px;
+    }
+    figure {
+        position: relative;
+    }
+    figure img {
+        width: 100%;
+        margin-top: 530px;
+    }
+    figure figcaption {
+        position: absolute;
+        top: 530px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding-top: 7%;
+        word-spacing: 4px;
+        font-family: 'Merriweather', serif;
+        font-size: 1.5em;
+        opacity: 0;
+        transition: 0.5s all;
+    }
+    figure:hover figcaption {
+        opacity: 1;
+    }
+    .h3-2 {
+        color: black;
+        font-size: 2em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-left: 323px;
+    }
+    .figure {
+        position: relative;
+    }
+    .figure img {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .figure .figcaption {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding-top: 9%;
+        word-spacing: 4px;
+        font-family: 'Merriweather', serif;
+        font-size: 1.5em;
+        opacity: 0;
+        transition: 0.5s all;
+    }
+    .figure:hover .figcaption {
+        opacity: 1;
+    }
+    .h3-3 {
+        color: black;
+        font-size: 2em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-left: 300px;
+    }
+    .figure1 {
+        position: relative;
+    }
+    .figure1 img {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .figure1 .figcaption1 {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding-top: 18%;
+        word-spacing: 4px;
+        font-family: 'Merriweather', serif;
+        font-size: 1.5em;
+        opacity: 0;
+        transition: 0.5s all;
+    }
+    .figure1:hover .figcaption1 {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        /*background-color: #17282f;*/
+        background-color: black;
+        height: 300vh;
+    }
+    .NavigationBar {
+        width: 768px;
+        height: 70px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+        text-align: left;
+        overflow: hidden;
+        background-color: #e2dce8;
+    }
+    .ContentofNav {
+        display: inline;
+        list-style-type: none;
+    }
+    .ContentofNav a:hover {
+        background-color: grey;
+        list-style-type: none;
+    }
+    .Content-2 {
+        display: inline;
+        font-size: 2.5em;
+        font-family: 'Satisfy', cursive;
+        color: red;
+        list-style: none;
+    }
+    .Content-2 a {
+        text-decoration: none;
+        color: #d42417;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 {
+        display: inline;
+        color: black;
+        font-size: 1.6em;
+        font-family: 'Roboto', sans-serif;
+        list-style: none;
+    }
+    #content2 a {
+        text-decoration: none;
+        padding: 20px 25px;
+        color: chocolate;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 a:hover {
+        background-color: cadetblue;
+    }
+    .Content-3 {
+        margin-left: 640px;
+        margin-top: -67px;
+        font-size: 2.5em;
+        color: white;
+        cursor: pointer;
+        list-style: none;
+    }
+    .MidPart {
+        width: 768px;
+        height: 100%;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e1f7f4;
+    }
+    .h2 {
+        color: black;
+        font-size: 1.8em;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        position: absolute;
+        margin-left: 30px;
+    }
+    .h3 {
+        color: black;
+        font-size: 1.7em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+    .Chef {
+        height: 260px;
+        width: 250px;
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 40px;
+    }
+    .p {
+        width: 460px;
+        height: 282px;
+        word-spacing: 8px;
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 300px;
+        font-size: .8em;
+        font-family: 'Merriweather', serif;
+        color: black;
+    }
+    .h3-1 {
+        color: black;
+        font-size: 2em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-top: 440px;
+        margin-left: 275px;
+    }
+    figure {
+        position: relative;
+    }
+    figure img {
+        width: 100%;
+        margin-top: 490px;
+    }
+    figure figcaption {
+        position: absolute;
+        top: 490px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding-top: 8%;
+        word-spacing: 4px;
+        font-family: 'Merriweather', serif;
+        font-size: 1.1em;
+        opacity: 0;
+        transition: 0.5s all;
+    }
+    figure:hover figcaption {
+        opacity: 1;
+    }
+    .h3-2 {
+        color: black;
+        font-size: 2em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-left: 200px;
+    }
+    .figure {
+        position: relative;
+    }
+    .figure img {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .figure .figcaption {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding-top: 9%;
+        word-spacing: 4px;
+        font-family: 'Merriweather', serif;
+        font-size: 1.1em;
+        opacity: 0;
+        transition: 0.5s all;
+    }
+    .figure:hover .figcaption {
+        opacity: 1;
+    }
+    .h3-3 {
+        color: black;
+        font-size: 2em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-left: 200px;
+    }
+    .figure1 {
+        position: relative;
+    }
+    .figure1 img {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .figure1 .figcaption1 {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding-top: 15%;
+        word-spacing: 4px;
+        font-family: 'Merriweather', serif;
+        font-size: 1.5em;
+        opacity: 0;
+        transition: 0.5s all;
+    }
+    .figure1:hover .figcaption1 {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 992px) {
+    body {
+        /*background-color: #17282f;*/
+        background-color: black;
+        height: 250vh;
+    }
+    .NavigationBar {
+        width: 600px;
+        height: 70px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+        text-align: left;
+        overflow: hidden;
+        background-color: #e2dce8;
+    }
+    .ContentofNav {
+        display: inline;
+        list-style-type: none;
+    }
+    .ContentofNav a:hover {
+        background-color: grey;
+        list-style-type: none;
+    }
+    .Content-2 {
+        display: inline;
+        margin-left: -25px;
+        font-size: 2.2em;
+        font-family: 'Satisfy', cursive;
+        color: red;
+        list-style: none;
+    }
+    .Content-2 a {
+        text-decoration: none;
+        color: #d42417;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 {
+        display: inline;
+        color: black;
+        font-size: 1.4em;
+        font-family: 'Roboto', sans-serif;
+        list-style: none;
+    }
+    #content2 a {
+        text-decoration: none;
+        padding: 20px 15px;
+        color: chocolate;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 a:hover {
+        background-color: cadetblue;
+    }
+    .Content-3 {
+        margin-left: 480px;
+        margin-top: -65px;
+        font-size: 2.5em;
+        color: white;
+        cursor: pointer;
+        list-style: none;
+    }
+    .MidPart {
+        width: 600px;
+        height: 100%;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e1f7f4;
+    }
+    .h2 {
+        color: black;
+        font-size: 1.8em;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        position: absolute;
+        margin-left: 30px;
+    }
+    .h3 {
+        color: black;
+        font-size: 1.5em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+    .Chef {
+        height: 210px;
+        width: 200px;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 40px;
+    }
+    .p {
+        width: 350px;
+        height: 282px;
+        word-spacing: 8px;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 245px;
+        font-size: .6em;
+        font-family: 'Merriweather', serif;
+        color: black;
+    }
+    .h3-1 {
+        color: black;
+        font-size: 2em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 200px;
+    }
+    figure {
+        position: relative;
+    }
+    figure img {
+        width: 100%;
+        margin-top: 400px;
+    }
+    figure figcaption {
+        position: absolute;
+        top: 400px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding-top: 5%;
+        word-spacing: 4px;
+        font-family: 'Merriweather', serif;
+        font-size: .9em;
+        opacity: 0;
+        transition: 0.5s all;
+    }
+    figure:hover figcaption {
+        opacity: 1;
+    }
+    .h3-2 {
+        color: black;
+        font-size: 2em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-left: 120px;
+    }
+    .figure {
+        position: relative;
+    }
+    .figure img {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .figure .figcaption {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding-top: 9%;
+        word-spacing: 4px;
+        font-family: 'Merriweather', serif;
+        font-size: .9em;
+        opacity: 0;
+        transition: 0.5s all;
+    }
+    .figure:hover .figcaption {
+        opacity: 1;
+    }
+    .h3-3 {
+        color: black;
+        font-size: 2em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-left: 120px;
+    }
+    .figure1 {
+        position: relative;
+    }
+    .figure1 img {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .figure1 .figcaption1 {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding-top: 15%;
+        word-spacing: 4px;
+        font-family: 'Merriweather', serif;
+        font-size: 1.1em;
+        opacity: 0;
+        transition: 0.5s all;
+    }
+    .figure1:hover .figcaption1 {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        /*background-color: #17282f;*/
+        background-color: black;
+        height: 300vh;
+    }
+    .NavigationBar {
+        width: 500px;
+        height: 97px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: -10px;
+        list-style-type: none;
+        text-align: left;
+        overflow: hidden;
+        background-color: #e2dce8;
+    }
+    .ContentofNav {
+        display: inline;
+        list-style-type: none;
+    }
+    .ContentofNav a:hover {
+        background-color: grey;
+        list-style-type: none;
+    }
+    .Content-2 {
+        display: block;
+        font-size: 2em;
+        font-family: 'Satisfy', cursive;
+        color: red;
+        list-style: none;
+    }
+    .Content-2 a {
+        text-decoration: none;
+        color: #d42417;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 {
+        display: inline;
+        color: black;
+        font-size: 1.4em;
+        font-family: 'Roboto', sans-serif;
+        list-style: none;
+    }
+    #content2 a {
+        text-decoration: none;
+        padding: 10px 23px;
+        color: chocolate;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 a:hover {
+        background-color: cadetblue;
+        color: snow;
+    }
+    .Content-3 {
+        margin-left: 360px;
+        margin-top: -90px;
+        font-size: 2.5em;
+        color: white;
+        cursor: pointer;
+        list-style: none;
+    }
+    .MidPart {
+        width: 500px;
+        height: 100%;
+        margin-top: -20px;
+        margin-left: -10px;
+        background-color: #e1f7f4;
+    }
+    .h2 {
+        color: black;
+        font-size: 1.8em;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        position: absolute;
+        margin-left: 20px;
+    }
+    .h3 {
+        color: black;
+        font-size: 1.7em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 30px;
+    }
+    .Chef {
+        height: 260px;
+        width: 250px;
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 120px;
+    }
+    .p {
+        width: 450px;
+        height: 282px;
+        word-spacing: 8px;
+        position: absolute;
+        margin-top: 400px;
+        margin-left: 20px;
+        font-size: .8em;
+        font-family: 'Merriweather', serif;
+        color: black;
+    }
+    .h3-1 {
+        color: black;
+        font-size: 2em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-top: 680px;
+        margin-left: 140px;
+    }
+    figure {
+        position: relative;
+    }
+    figure img {
+        width: 100%;
+        margin-top: 730px;
+    }
+    figure figcaption {
+        position: absolute;
+        top: 730px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding-top: 6%;
+        word-spacing: 4px;
+        font-family: 'Merriweather', serif;
+        font-size: .7em;
+        opacity: 0;
+        transition: 0.5s all;
+    }
+    figure:hover figcaption {
+        opacity: 1;
+    }
+    .h3-2 {
+        color: black;
+        font-size: 2em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-left: 80px;
+    }
+    .figure {
+        position: relative;
+    }
+    .figure img {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .figure .figcaption {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding-top: 9%;
+        word-spacing: 4px;
+        font-family: 'Merriweather', serif;
+        font-size: .7em;
+        opacity: 0;
+        transition: 0.5s all;
+    }
+    .figure:hover .figcaption {
+        opacity: 1;
+    }
+    .h3-3 {
+        color: black;
+        font-size: 2em;
+        font-family: 'Teko', sans-serif;
+        font-weight: 300;
+        position: absolute;
+        margin-left: 60px;
+    }
+    .figure1 {
+        position: relative;
+    }
+    .figure1 img {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .figure1 .figcaption1 {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding-top: 12%;
+        word-spacing: 4px;
+        font-family: 'Merriweather', serif;
+        font-size: 1em;
+        opacity: 0;
+        transition: 0.5s all;
+    }
+    .figure1:hover .figcaption1 {
+        opacity: 1;
+    }
+}

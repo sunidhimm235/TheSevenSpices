@@ -1,0 +1,539 @@
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    body {
+        /*background-color: #17282f;*/
+        background-color: black;
+        height: 200vh;
+    }
+    .NavigationBar {
+        width: 992px;
+        height: 70px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+        text-align: left;
+        overflow: hidden;
+        background-color: #e3d2b6;
+    }
+    .ContentofNav {
+        display: inline;
+        list-style-type: none;
+    }
+    .ContentofNav a:hover {
+        background-color: grey;
+        list-style-type: none;
+    }
+    .Content-2 {
+        display: inline;
+        font-size: 2.5em;
+        font-family: 'Satisfy', cursive;
+        color: red;
+        list-style: none;
+    }
+    .Content-2 a {
+        text-decoration: none;
+        color: #d42417;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 {
+        display: inline;
+        color: black;
+        font-size: 2em;
+        font-family: 'Roboto', sans-serif;
+        list-style: none;
+    }
+    #content2 a {
+        text-decoration: none;
+        padding: 30px 40px;
+        color: chocolate;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 a:hover {
+        background-color: cadetblue;
+    }
+    .Content-3 {
+        margin-left: 860px;
+        margin-top: -67px;
+        font-size: 2.5em;
+        color: white;
+        cursor: pointer;
+        list-style: none;
+    }
+    .MidPart {
+        width: 992px;
+        height: 100%;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e1f7f4;
+    }
+    .heading2 {
+        margin-top: 30px;
+        color: black;
+        font-size: 2em;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        position: absolute;
+        margin-left: 30px;
+    }
+    .Logo {
+        width: 992px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .BP1 {
+        margin-top: 60px;
+        margin-left: 10px;
+        width: 300px;
+        height: 300px;
+    }
+    .BP2 {
+        margin-top: 60px;
+        margin-right: 10px;
+        width: 300px;
+        height: 300px;
+        float: right;
+    }
+    .BP4 {
+        width: 300px;
+        height: 300px;
+        outline: 0;
+        border: 0;
+        margin-left: 33px;
+    }
+    .BP5 {
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 510px;
+        height: 500px;
+        outline: 0;
+        border: 0;
+    }
+    .p1 {
+        margin-top: -400px;
+        margin-left: 540px;
+        font-size: 1.5em;
+        font-family: 'Merriweather', serif;
+    }
+    .p3 {
+        margin-left: 540px;
+        font-size: 1.5em;
+        font-family: 'Merriweather', serif;
+    }
+    .h2 {
+        margin-left: 540px;
+        font-size: 2em;
+        font-family: 'Merriweather', serif;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        /*background-color: #17282f;*/
+        background-color: black;
+        height: 160vh;
+    }
+    .NavigationBar {
+        width: 768px;
+        height: 70px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+        text-align: left;
+        overflow: hidden;
+        background-color: #e3d2b6;
+    }
+    .ContentofNav {
+        display: inline;
+        list-style-type: none;
+    }
+    .ContentofNav a:hover {
+        background-color: grey;
+        list-style-type: none;
+    }
+    .Content-2 {
+        display: inline;
+        font-size: 2.5em;
+        font-family: 'Satisfy', cursive;
+        color: red;
+        list-style: none;
+    }
+    .Content-2 a {
+        text-decoration: none;
+        color: #d42417;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 {
+        display: inline;
+        color: black;
+        font-size: 1.6em;
+        font-family: 'Roboto', sans-serif;
+        list-style: none;
+    }
+    #content2 a {
+        text-decoration: none;
+        padding: 20px 25px;
+        color: chocolate;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 a:hover {
+        background-color: cadetblue;
+    }
+    .Content-3 {
+        margin-left: 640px;
+        margin-top: -67px;
+        font-size: 2.5em;
+        color: white;
+        cursor: pointer;
+        list-style: none;
+    }
+    .MidPart {
+        width: 768px;
+        height: 100%;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e1f7f4;
+    }
+    .heading2 {
+        margin-top: 30px;
+        color: black;
+        font-size: 2em;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        position: absolute;
+        margin-left: 20px;
+    }
+    .Logo {
+        width: 992px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .BP1 {
+        margin-top: 60px;
+        margin-left: 20px;
+        width: 350px;
+        height: 350px;
+    }
+    .BP2 {
+        margin-top: 30px;
+        margin-right: 20px;
+        width: 350px;
+        height: 350px;
+        float: right;
+    }
+    .BP4 {
+        width: 350px;
+        height: 350px;
+        outline: 0;
+        border: 0;
+        margin-left: 20px;
+    }
+    .BP5 {
+        margin-left: 20px;
+        margin-top: 30px;
+        width: 350px;
+        height: 350px;
+        outline: 0;
+        border: 0;
+    }
+    .p1 {
+        margin-top: -400px;
+        margin-left: 540px;
+        font-size: 1.5em;
+        color: transparent;
+        font-family: 'Merriweather', serif;
+    }
+    .p3 {
+        margin-left: 540px;
+        font-size: 1.5em;
+        color: transparent;
+        font-family: 'Merriweather', serif;
+    }
+    .h2 {
+        margin-left: 540px;
+        font-size: 2em;
+        color: transparent;
+        font-family: 'Merriweather', serif;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 992px) {
+    body {
+        /*background-color: #17282f;*/
+        background-color: black;
+        height: 350vh;
+    }
+    .NavigationBar {
+        width: 600px;
+        height: 70px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+        text-align: left;
+        overflow: hidden;
+        background-color: #e3d2b6;
+    }
+    .ContentofNav {
+        display: inline;
+        list-style-type: none;
+    }
+    .ContentofNav a:hover {
+        background-color: grey;
+        list-style-type: none;
+    }
+    .Content-2 {
+        display: inline;
+        margin-left: -25px;
+        font-size: 2.2em;
+        font-family: 'Satisfy', cursive;
+        color: red;
+        list-style: none;
+    }
+    .Content-2 a {
+        text-decoration: none;
+        color: #d42417;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 {
+        display: inline;
+        color: black;
+        font-size: 1.4em;
+        font-family: 'Roboto', sans-serif;
+        list-style: none;
+    }
+    #content2 a {
+        text-decoration: none;
+        padding: 20px 15px;
+        color: chocolate;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 a:hover {
+        background-color: cadetblue;
+    }
+    .Content-3 {
+        margin-left: 480px;
+        margin-top: -65px;
+        font-size: 2.5em;
+        color: white;
+        cursor: pointer;
+        list-style: none;
+    }
+    .MidPart {
+        width: 600px;
+        height: 100%;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e1f7f4;
+    }
+    .heading2 {
+        margin-top: 30px;
+        color: black;
+        font-size: 2em;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        position: absolute;
+        margin-left: 20px;
+    }
+    .Logo {
+        width: 992px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .BP1 {
+        margin-top: 60px;
+        margin-left: 50px;
+        width: 500px;
+        height: 500px;
+    }
+    .BP2 {
+        margin-top: 30px;
+        margin-left: 50px;
+        width: 500px;
+        height: 500px;
+    }
+    .BP4 {
+        width: 500px;
+        height: 500px;
+        outline: 0;
+        border: 0;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .BP5 {
+        margin-left: 50px;
+        margin-top: 30px;
+        width: 500px;
+        height: 500px;
+        outline: 0;
+        border: 0;
+    }
+    .p1 {
+        margin-top: -400px;
+        margin-left: 540px;
+        font-size: 1.5em;
+        color: transparent;
+        font-family: 'Merriweather', serif;
+    }
+    .p3 {
+        margin-left: 540px;
+        font-size: 1.5em;
+        color: transparent;
+        font-family: 'Merriweather', serif;
+    }
+    .h2 {
+        margin-left: 540px;
+        font-size: 2em;
+        color: transparent;
+        font-family: 'Merriweather', serif;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        /*background-color: #17282f;*/
+        background-color: black;
+        height: 300vh;
+    }
+    .NavigationBar {
+        width: 500px;
+        height: 97px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: -10px;
+        list-style-type: none;
+        text-align: left;
+        overflow: hidden;
+        background-color: #e3d2b6;
+    }
+    .ContentofNav {
+        display: inline;
+        list-style-type: none;
+    }
+    .ContentofNav a:hover {
+        background-color: grey;
+        list-style-type: none;
+    }
+    .Content-2 {
+        display: block;
+        font-size: 2em;
+        font-family: 'Satisfy', cursive;
+        color: red;
+        list-style: none;
+        margin-left: -20px;
+    }
+    .Content-2 a {
+        text-decoration: none;
+        color: #d42417;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 {
+        display: inline;
+        color: black;
+        font-size: 1.4em;
+        font-family: 'Roboto', sans-serif;
+        list-style: none;
+        margin-left: -5px;
+    }
+    #content2 a {
+        text-decoration: none;
+        padding: 10px 23px;
+        color: chocolate;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 a:hover {
+        background-color: cadetblue;
+        color: snow;
+    }
+    .Content-3 {
+        margin-left: 340px;
+        margin-top: -90px;
+        font-size: 2.5em;
+        color: white;
+        cursor: pointer;
+        list-style: none;
+    }
+    .MidPart {
+        width: 500px;
+        height: 100%;
+        margin-top: -20px;
+        margin-left: -10px;
+        background-color: #e1f7f4;
+    }
+    .heading2 {
+        margin-top: 30px;
+        color: black;
+        font-size: 2em;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        position: absolute;
+        margin-left: 20px;
+    }
+    .Logo {
+        width: 992px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .BP1 {
+        margin-top: 60px;
+        margin-left: 20px;
+        width: 400px;
+        height: 400px;
+    }
+    .BP2 {
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 400px;
+        height: 400px;
+    }
+    .BP4 {
+        width: 400px;
+        height: 400px;
+        outline: 0;
+        border: 0;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .BP5 {
+        margin-left: 20px;
+        margin-top: 30px;
+        width: 400px;
+        height: 400px;
+        outline: 0;
+        border: 0;
+    }
+    .p1 {
+        margin-top: -400px;
+        margin-left: 540px;
+        font-size: .1em;
+        color: transparent;
+        font-family: 'Merriweather', serif;
+    }
+    .p3 {
+        margin-left: 540px;
+        font-size: .1em;
+        color: transparent;
+        font-family: 'Merriweather', serif;
+    }
+    .h2 {
+        margin-left: 540px;
+        font-size: .1em;
+        color: transparent;
+        font-family: 'Merriweather', serif;
+    }
+}

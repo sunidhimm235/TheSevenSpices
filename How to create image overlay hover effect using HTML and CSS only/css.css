@@ -1,0 +1,26 @@
+figure {
+    position: relative;
+}
+
+figure img {
+    width: 100%;
+}
+
+figure figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 50px;
+    padding-top: 30%;
+    opacity: 0;
+    transition: 0.5s all;
+}
+
+figure:hover figcaption {
+    opacity: 1;
+}

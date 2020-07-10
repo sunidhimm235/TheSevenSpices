@@ -1,0 +1,579 @@
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    body {
+        /*background-color: #17282f;*/
+        background-color: black;
+        height: 800vh;
+    }
+    .NavigationBar {
+        width: 992px;
+        height: 70px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+        text-align: left;
+        overflow: hidden;
+        background-color: #e2dce8;
+    }
+    .ContentofNav {
+        margin-top: -10px;
+        list-style-type: none;
+    }
+    .ContentofNav a:hover {
+        list-style-type: none;
+    }
+    .Content-2 {
+        display: inline;
+        font-size: 2.5em;
+        font-family: 'Satisfy', cursive;
+        color: red;
+        list-style: none;
+    }
+    .Content-2 a {
+        text-decoration: none;
+        color: #d42417;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 {
+        display: inline;
+        text-align: center;
+        color: black;
+        font-size: 2em;
+        font-family: 'Roboto', sans-serif;
+        list-style: none;
+    }
+    #content2 a {
+        text-decoration: none;
+        padding: 40px 40px;
+        color: chocolate;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 a:hover {
+        background-color: cadetblue;
+    }
+    .Content-3 {
+        margin-left: 850px;
+        margin-top: -67px;
+        font-size: 2.5em;
+        color: white;
+        cursor: pointer;
+        list-style: none;
+    }
+    .MidPart {
+        width: 992px;
+        height: 100%;
+        margin-top: -15px;
+        margin-left: auto;
+        margin-right: auto;
+        background: url(MenuBG900px.jpg.jpg);
+        background-repeat: repeat-y;
+    }
+    .title {
+        position: relative;
+        color: #e67e7e;
+        font-size: 3em;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        margin-left: 10px;
+    }
+    h2 {
+        color: whitesmoke;
+        margin-left: 10px;
+        font-size: 2.5em;
+        font-family: 'Rajdhani', sans-serif;
+        text-decoration: underline;
+    }
+    /*font-family: 'Bebas Neue', cursive;
+font-family: 'Fondamento', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Laila', serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Tillana', cursive;*/
+    .box {
+        position: relative;
+        margin-left: 20px;
+        margin-top: -50px;
+        width: 750px;
+        height: 250px;
+        overflow: hidden;
+    }
+    .product-name {
+        position: absolute;
+        color: whitesmoke;
+        font-size: 2em;
+        font-family: 'Fondamento', cursive;
+    }
+    .description {
+        position: absolute;
+        color: whitesmoke;
+        font-size: 1.4em;
+        margin-top: 65px;
+        width: 750px;
+        font-family: 'Laila', serif;
+    }
+    .price {
+        position: absolute;
+        color: whitesmoke;
+        font-size: 1.2em;
+        margin-top: 145px;
+        font-family: 'Laila', serif;
+    }
+    .btn {
+        position: absolute;
+        background-color: black;
+        color: whitesmoke;
+        border: none;
+        outline: 0;
+        padding: 5px;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 200px;
+        height: 40px;
+        margin-top: 140px;
+        margin-left: 200px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.4em;
+    }
+    .btn:hover {
+        background-color: cadetblue;
+        font-size: 1.6em;
+        font-family: 'Bebas Neue', cursive;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        /*background-color: #17282f;*/
+        background-color: black;
+        height: 680vh;
+    }
+    .NavigationBar {
+        width: 768px;
+        height: 70px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+        text-align: left;
+        overflow: hidden;
+        background-color: #e2dce8;
+    }
+    .ContentofNav {
+        display: inline;
+        list-style-type: none;
+    }
+    .ContentofNav a:hover {
+        background-color: grey;
+        list-style-type: none;
+    }
+    .Content-2 {
+        display: inline;
+        font-size: 2.5em;
+        font-family: 'Satisfy', cursive;
+        color: red;
+        list-style: none;
+    }
+    .Content-2 a {
+        text-decoration: none;
+        color: #d42417;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 {
+        display: inline;
+        color: black;
+        font-size: 1.6em;
+        font-family: 'Roboto', sans-serif;
+        list-style: none;
+    }
+    #content2 a {
+        text-decoration: none;
+        padding: 20px 25px;
+        color: chocolate;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 a:hover {
+        background-color: cadetblue;
+    }
+    .Content-3 {
+        margin-left: 640px;
+        margin-top: -67px;
+        font-size: 2.5em;
+        color: white;
+        cursor: pointer;
+        list-style: none;
+    }
+    .MidPart {
+        width: 768px;
+        height: 100%;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        background: url(MenuBG768px.jpg);
+        background-repeat: repeat-y;
+    }
+    .title {
+        position: relative;
+        color: #e67e7e;
+        font-size: 3em;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        margin-left: 10px;
+    }
+    h2 {
+        color: whitesmoke;
+        margin-left: 10px;
+        font-size: 2.5em;
+        font-family: 'Rajdhani', sans-serif;
+        text-decoration: underline;
+    }
+    /*font-family: 'Bebas Neue', cursive;
+font-family: 'Fondamento', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Laila', serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Tillana', cursive;*/
+    .box {
+        position: relative;
+        margin-left: 20px;
+        margin-top: -50px;
+        width: 550px;
+        height: 250px;
+        overflow: hidden;
+    }
+    .product-name {
+        position: absolute;
+        color: whitesmoke;
+        font-size: 1.8em;
+        font-family: 'Fondamento', cursive;
+    }
+    .description {
+        position: absolute;
+        color: whitesmoke;
+        font-size: 1.2em;
+        margin-top: 65px;
+        width: 550px;
+        font-family: 'Laila', serif;
+    }
+    .price {
+        position: absolute;
+        color: whitesmoke;
+        font-size: 1.2em;
+        margin-top: 145px;
+        font-family: 'Laila', serif;
+    }
+    .btn {
+        position: absolute;
+        background-color: black;
+        color: whitesmoke;
+        border: none;
+        outline: 0;
+        padding: 5px;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 200px;
+        height: 40px;
+        margin-top: 140px;
+        margin-left: 200px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.4em;
+    }
+    .btn:hover {
+        background-color: cadetblue;
+        font-size: 1.6em;
+        font-family: 'Bebas Neue', cursive;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 992px) {
+    body {
+        /*background-color: #17282f;*/
+        background-color: black;
+        height: 640vh;
+    }
+    .NavigationBar {
+        width: 600px;
+        height: 70px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+        text-align: left;
+        overflow: hidden;
+        background-color: #e2dce8;
+    }
+    .ContentofNav {
+        display: inline;
+        list-style-type: none;
+    }
+    .ContentofNav a:hover {
+        background-color: grey;
+        list-style-type: none;
+    }
+    .Content-2 {
+        display: inline;
+        margin-left: -25px;
+        font-size: 2.2em;
+        font-family: 'Satisfy', cursive;
+        color: red;
+        list-style: none;
+    }
+    .Content-2 a {
+        text-decoration: none;
+        color: #d42417;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 {
+        display: inline;
+        color: black;
+        font-size: 1.4em;
+        font-family: 'Roboto', sans-serif;
+        list-style: none;
+    }
+    #content2 a {
+        text-decoration: none;
+        padding: 20px 15px;
+        color: chocolate;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 a:hover {
+        background-color: cadetblue;
+    }
+    .Content-3 {
+        margin-left: 480px;
+        margin-top: -65px;
+        font-size: 2.5em;
+        color: white;
+        cursor: pointer;
+        list-style: none;
+    }
+    .MidPart {
+        width: 600px;
+        height: 100%;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+        background: url(MenuBG600px.jpg);
+        background-repeat: repeat-y;
+    }
+    .title {
+        position: relative;
+        color: #e67e7e;
+        font-size: 3em;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        margin-left: 10px;
+    }
+    h2 {
+        color: whitesmoke;
+        margin-left: 10px;
+        font-size: 2.5em;
+        font-family: 'Rajdhani', sans-serif;
+        text-decoration: underline;
+    }
+    /*font-family: 'Bebas Neue', cursive;
+font-family: 'Fondamento', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Laila', serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Tillana', cursive;*/
+    .box {
+        position: relative;
+        margin-left: 20px;
+        margin-top: -50px;
+        width: 430px;
+        height: 250px;
+        overflow: hidden;
+    }
+    .product-name {
+        position: absolute;
+        color: whitesmoke;
+        font-size: 1.4em;
+        font-family: 'Fondamento', cursive;
+    }
+    .description {
+        position: absolute;
+        color: whitesmoke;
+        font-size: 1em;
+        margin-top: 65px;
+        width: 430px;
+        font-family: 'Laila', serif;
+    }
+    .price {
+        position: absolute;
+        color: whitesmoke;
+        font-size: 1.2em;
+        margin-top: 145px;
+        font-family: 'Laila', serif;
+    }
+    .btn {
+        position: absolute;
+        background-color: black;
+        color: whitesmoke;
+        border: none;
+        outline: 0;
+        padding: 5px;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 200px;
+        height: 40px;
+        margin-top: 140px;
+        margin-left: 200px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.4em;
+    }
+    .btn:hover {
+        background-color: cadetblue;
+        font-size: 1.6em;
+        font-family: 'Bebas Neue', cursive;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        /*background-color: #17282f;*/
+        background-color: black;
+        height: 640vh;
+    }
+    .NavigationBar {
+        width: 500px;
+        height: 97px;
+        position: relative;
+        margin-top: -20px;
+        margin-left: -10px;
+        list-style-type: none;
+        text-align: left;
+        overflow: hidden;
+        background-color: #e2dce8;
+    }
+    .ContentofNav {
+        display: inline;
+        list-style-type: none;
+    }
+    .ContentofNav a:hover {
+        background-color: grey;
+        list-style-type: none;
+    }
+    .Content-2 {
+        display: block;
+        font-size: 2em;
+        font-family: 'Satisfy', cursive;
+        color: red;
+        list-style: none;
+    }
+    .Content-2 a {
+        text-decoration: none;
+        color: #d42417;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 {
+        display: inline;
+        color: black;
+        font-size: 1.4em;
+        font-family: 'Roboto', sans-serif;
+        list-style: none;
+    }
+    #content2 a {
+        text-decoration: none;
+        padding: 10px 23px;
+        color: chocolate;
+        list-style: none;
+        cursor: pointer;
+    }
+    #content2 a:hover {
+        background-color: cadetblue;
+        color: snow;
+    }
+    .Content-3 {
+        margin-left: 360px;
+        margin-top: -90px;
+        font-size: 2.5em;
+        color: white;
+        cursor: pointer;
+        list-style: none;
+    }
+    .MidPart {
+        width: 500px;
+        height: 100%;
+        margin-top: -20px;
+        margin-left: -10px;
+        background: url(MenuBG600px.jpg);
+        background-repeat: repeat-y;
+    }
+    .title {
+        position: relative;
+        color: #e67e7e;
+        font-size: 3em;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        margin-left: 10px;
+    }
+    h2 {
+        color: whitesmoke;
+        margin-left: 10px;
+        font-size: 2.5em;
+        font-family: 'Rajdhani', sans-serif;
+        text-decoration: underline;
+    }
+    /*font-family: 'Bebas Neue', cursive;
+font-family: 'Fondamento', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Laila', serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Tillana', cursive;*/
+    .box {
+        position: relative;
+        margin-left: 20px;
+        margin-top: -50px;
+        width: 430px;
+        height: 250px;
+        overflow: hidden;
+    }
+    .product-name {
+        position: absolute;
+        color: whitesmoke;
+        font-size: 1.4em;
+        font-family: 'Fondamento', cursive;
+    }
+    .description {
+        position: absolute;
+        color: whitesmoke;
+        font-size: 1em;
+        margin-top: 65px;
+        width: 430px;
+        font-family: 'Laila', serif;
+    }
+    .price {
+        position: absolute;
+        color: whitesmoke;
+        font-size: 1.2em;
+        margin-top: 145px;
+        font-family: 'Laila', serif;
+    }
+    .btn {
+        position: absolute;
+        background-color: black;
+        color: whitesmoke;
+        border: none;
+        outline: 0;
+        padding: 5px;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 200px;
+        height: 40px;
+        margin-top: 140px;
+        margin-left: 200px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.4em;
+    }
+    .btn:hover {
+        background-color: cadetblue;
+        font-size: 1.6em;
+        font-family: 'Bebas Neue', cursive;
+    }
+}
